@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
-  s.name = 'mmSDK'
+  s.name = 'TanxSDK'
   s.version  = "3.5.2"
   s.summary  = 'TanxSDK is a SDK from Alimama providing union AD service.'
   s.description = <<-DESC
@@ -18,12 +18,17 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.authors = {'author'=>'jiangtao.wd@alibaba-inc.com'}
   s.source  = { :git => 'https://github.com/gql19890103/TestTanx.git', :tag => '3.5.2' }
-  s.source_files = 'TanxSDK.framework/Headers/*'
+  # s.vendored_frameworks = 'TanxSDK.framework'
 
-  s.xcconfig = {
-      'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default',
-      'CLANG_CXX_LIBRARY' => 'compiler-default'
-  }
+  # s.vendored_frameworks = 'mmSDK/3.5.2/TanxSDK.framework'
+  s.vendored_frameworks = 'TanxSDK.framework'
+
+
+
+  # s.xcconfig = {
+  #     'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default',
+  #     'CLANG_CXX_LIBRARY' => 'compiler-default'
+  # }
 
 
 
