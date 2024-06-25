@@ -25,11 +25,6 @@ Pod::Spec.new do |s|
       'CLANG_CXX_LIBRARY' => 'compiler-default'
   }
 
-s.subspec 'TanxCoreSDK' do |ss|
-
-  ss.source_files = 'TanxCoreSDK/*'
-
-end
 
 
 end
