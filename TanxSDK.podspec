@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = true
   s.authors = {'author'=>'jiangtao.wd@alibaba-inc.com'}
-  s.source  = { :git => 'https://github.com/gql19890103/TestTanx.git', :tag => '3.5.2' }
+  s.source  = { :http => "https://github.com/gql19890103/TestTanx/archive/refs/heads/main.zip" }
+  
   # s.vendored_frameworks = 'TanxSDK.framework'
 
   # s.vendored_frameworks = 'mmSDK/3.5.2/TanxSDK.framework'
