@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   TanxSDK provides ADs which include native、feed、splash、RewardVideo etc.
                        DESC
   s.license          = { :type => 'MIT', :file => 'SDK/LICENSE' }
-  s.homepage         = 'https://github.com/gql19890103/TesTanx'
+  s.homepage         = 'https://github.com/gql19890103/TestTanx'
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = true
   s.authors = {'author'=>'jiangtao.wd@alibaba-inc.com'}
-  s.source  = { :git => 'https://github.com/gql19890103/TesTanx.git', :tag => '3.5.2' }
+  s.source  = { :git => 'https://github.com/gql19890103/TestTanx.git', :tag => '3.5.2' }
   
 
   s.xcconfig = {
