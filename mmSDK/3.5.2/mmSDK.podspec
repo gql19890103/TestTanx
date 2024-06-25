@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.authors = {'author'=>'jiangtao.wd@alibaba-inc.com'}
   s.source  = { :git => 'https://github.com/gql19890103/TestTanx.git', :tag => '3.5.2' }
-  
+  s.source_files = 'TanxSDK.framework/Headers/*'
 
   s.xcconfig = {
       'CLANG_CXX_LANGUAGE_STANDARD' => 'compiler-default',
